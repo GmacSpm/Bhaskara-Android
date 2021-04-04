@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bhaskara</string>
+    <string name="ajuda">Caso seja número decimal deverá mover a virgula para a direita ex:</string>
+    <string name="ajuda2">Quando o texto abaixo aparecer quer dizer que você deverá terminar a conta, porque o app não calcula a raiz quadrada que não seja exata</string>
+    <string name="a">Termo A = 230</string>
+    <string name="b">Termo B = 155</string>
+    <string name="c">Termo C = 900</string>
+    <string name="botao">Calcular</string>
+    <string name="ajuda_m">Ajuda</string>
+    <string name="guia">Guia</string>
+</resources>

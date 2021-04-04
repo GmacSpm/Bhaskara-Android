@@ -1,0 +1,31 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://maven.springframework.org/release"
+        }
+        maven {
+            url "https://maven.restlet.com"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.+'
+    }
+}
+
+allprojects {
+    repositories {
+    	google()
+        mavenCentral()
+		maven { url "https://jitpack.io" }
+		maven { url "https://dl.bintray.com/yahoo/maven/" }
+		maven { url "https://repo1.maven.org/maven2/" }
+		maven { url "https://repo.spring.io/plugins-release/" }
+        maven { url "https://maven.google.com"}
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
